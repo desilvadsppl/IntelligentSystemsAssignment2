@@ -29,7 +29,9 @@ class IrisData(BaseModel):
 # Define the root endpoint
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the FastAPI Iris Prediction Service"}
+    return {
+        "message": "Hey, welcome! We're from FastAPI Iris Prediction Service."
+    }
 
 
 # Define the prediction endpoint
