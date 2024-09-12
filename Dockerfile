@@ -1,7 +1,7 @@
 {
   "services": [
     {
-      "name": "IntelligentSystems_Assignment2",  // Service name
+      "name": "IntelligentSystemsAssignment2",  // Service name
       "startCommand": "uvicorn main:app --host 0.0.0.0 --port $PORT"
     }
   ]
