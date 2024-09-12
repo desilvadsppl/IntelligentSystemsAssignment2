@@ -1,3 +1,12 @@
+{
+  "services": [
+    {
+      "name": "IntelligentSystems_Assignment2",  // Service name
+      "startCommand": "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    }
+  ]
+}
+
 # Use an official Python runtime as a parent image
 FROM python:3.9-slim
 
